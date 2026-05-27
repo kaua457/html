@@ -103,7 +103,8 @@ iframe{
 .barra2{
     display: flex;
     list-style-type: none;
-    margin: 30px 0px 0px 40px;
+    margin: 30px 0px 0px 0px;
+    padding-left: 15px;
 }
 .barra2 > li > a{
     text-decoration: none;
