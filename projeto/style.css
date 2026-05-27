@@ -82,7 +82,6 @@ img{
     }
 ul{
     list-style-type: none;
-    padding: 10px 10px 0px 10px;
 }
 a{
     text-decoration: none;
@@ -95,7 +94,7 @@ aside > ul{
     list-style-type: '✓\00A0\00A0';
     list-style-position: inside;
     gap: 80px;
-    margin-left: 5px;
+    padding-left: 20px;
 }
 iframe{
     margin: 10px;
