@@ -94,7 +94,7 @@ Sempre use a tag alt em imagens, serve para descrever as imagens que você usou 
     margin-bottom: 0px;
     margin-top: 0px;
     border-radius: 10px;
-    transition: background-color 0.2s, color 0.2s, transform 0.2s, border-radius 0.3s;
+    transition: background-color 0.2s, color 0.2s, transform 0.2s
 }
 .barra2 > li:hover{
     background-color: #3d546b;
