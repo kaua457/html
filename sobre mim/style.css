@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    background-color:#020214 ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+header{
+    background-image:linear-gradient(to top, #2E2E69, #17316e);
+    margin: 0px;
+    padding: 1px 20px 0px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px rgb(255, 255, 0);
+}
+header *{
+    color: white;
+}
+header h1{
+    text-align: center;
+    margin-top: 10px;
+}
+header p{
+    margin: 0px 10px 0px 3px;
+    text-align: center;
+    font-size: 1.2em;
+}
+main{
+    margin: auto;
+    padding: 10px;
+    width: 800px;
+    border-radius: 5px;
+    background-color: #14142C;
+    border: 1px solid rgba(235, 207, 22, 0.307);
+}
+main *{
+    color: white;
+}
+main > h1{
+    padding: 5px;
+    background-image:linear-gradient(to right, #1e2e62, transparent 50%) ;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.678);
+    border-radius: 4px;
+    font-size: 1.8em;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+div.informaçao{
+    background-color: #1d1d3d;
+    padding: 1px 20px 2px 20px;
+    margin: 30px 10px 10px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(235, 207, 22, 0.442);
+    box-shadow: 1px 1px 20px #02021498;
+}
+div.informaçao *{
+    font-size: medium;
+    text-decoration: none;
+}
+div.informaçao li::before{
+    content: "•";
+    
+}
+div.lista{
+    display: grid;
+    grid-template-columns: 210px 1fr 1fr;
+    margin-bottom: 10px;
+    gap: 10px;
+    justify-content: center;
+}
+div.lista li{
+    margin-bottom: 3px;
+}
+div.lista a::after{
+    content: "🔗";
+    font-size: 0.7em;
+    margin-left: 2px;
+}
+div.lista a:hover{
+    color: aquamarine;
+}
+h1{
+    margin-top: 0px;
+    font-weight: normal;
+}
+li{
+    align-items: center;
+    display: flex;
+    margin-bottom: 0px;
+    gap: 8px;
+}
+a img{
+    width: 20px;
+    margin-right: 5px;
+}
+a{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+ul{
+    padding: 0px;
+    list-style-position: inside;
+    margin-bottom: 5px;
+}
+.barra{
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+.barra > li a{
+    padding: 10px 8px 10px 8px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.barra > li a:hover{
+    background-color: #364fbd;
+    transition: 0.4s;
+}
