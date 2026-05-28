@@ -129,11 +129,8 @@ ul{
         width: auto;
     }
     div.lista{
-    display: grid;
     grid-template-columns: 210px 1fr;
     margin-bottom: 10px;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
+    gap: 2px;
 }
 }
